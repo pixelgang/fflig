@@ -1,0 +1,36 @@
+﻿{
+	"id": "com.penguinjetpack.br",
+	"version": "1.0.0.0",
+	"name": "Penguin Jetpack",
+	"description": "Penguin Jetpack - Polar Games",
+	"author": "Polar Games",
+	"email": "willian@polargames.com.br",
+	"website": "http://www.polargames.com.br",
+	"fullscreen": "false",
+	"useragent": null,
+	"orientation": "landscape",
+	"icons": [{
+		"src": "www/icon-256.png",
+		"width": 256,
+		"height": 256,
+		"density": "xxxhdpi"
+	}, {
+		"src": "www/icon-128.png",
+		"width": 128,
+		"height": 128,
+		"density": "xhdpi"
+	}],
+	"plugins": [
+		{ "id": "cordova-plugin-ad-admob", "version": null },
+		{ "id": "cordova-plugin-whitelist", "version": null }
+	],
+	"android": {
+		"min": 21,
+		"target": 26,
+		"plugins": []
+	},
+	"ios": {
+		"target": "8.0",
+		"plugins": []
+	}
+}
