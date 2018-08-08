@@ -30,7 +30,7 @@
 		"plugins": []
 	},
 	"ios": {
-		"target": "8.0",
+		"target": "9.0",
 		"plugins": []
 	}
 }
